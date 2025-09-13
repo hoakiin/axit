@@ -68,3 +68,31 @@ a:active {
   	text-decoration: none; 
 	outline: none; 
 }
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  line-height: inherit;
+  letter-spacing: inherit;
+  box-sizing: border-box;
+}
+/* Убираем стрелочки у number в Chrome/Edge/Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Убираем стрелочки у number в Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* Убираем стандартный крестик у search */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
