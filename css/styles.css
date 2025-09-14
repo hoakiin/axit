@@ -55,6 +55,7 @@ body {
 .main {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.png) no-repeat center bottom / cover;
     color: #FFF;
+    background-attachment: fixed;
 }
 
 .main .container {
@@ -347,6 +348,45 @@ body {
 
 .reviews__item__info p {
     padding-top: 30px;
+}
+
+
+.banner2 {
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner2.png) no-repeat center top / cover;
+   
+}
+
+.banner2__title,
+.banner2__subline {
+    color: #fff;
+}
+
+.banner2__line {
+    border-top: 1px solid #fff;
+    width: 170px;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+}
+
+.banner2__btn{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    border: 2px solid #fff;
+    width: 270px;
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+
+.banner2__btn:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.banner2__btn:active {
+    color: #fff;
+    border: 2px solid #AB4949;
+    background-color: #AB4949;
 }
 
 
