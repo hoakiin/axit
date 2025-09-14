@@ -348,3 +348,22 @@ body {
 .reviews__item__info p {
     padding-top: 30px;
 }
+
+
+
+.footer {
+    background-color: #000;
+}
+
+.footer__icons {
+    padding-top: 35px;
+    display: flex;
+    column-gap: 35px;
+    justify-content: center;
+}
+
+.footer p {
+    color: #FFF;
+    opacity: 50%;
+    padding: 27px 0;
+}
