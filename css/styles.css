@@ -50,21 +50,43 @@ input::placeholder, textarea::placeholder {
 .header {
     background-color: #000;
     color: #FFF;
-    padding: 22px 195px 21px 115px;
 }
 
-.header__container {
+.header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
-.header__nav a{
-    margin-left: 62px;
+.header__logo {
+    margin-left: -55px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu a{
+    width: 113px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 600;
 }
+
+.header__menu a:hover {
+    background-color: #EC7979;
+    text-transform: uppercase;
+}
+
+.header__menu a:active {
+    background-color: #AB4949;
+    text-transform: uppercase;
+}
+
 
 .main {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.png) no-repeat center bottom / cover;
