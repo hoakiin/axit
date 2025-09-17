@@ -123,7 +123,9 @@ input::placeholder, textarea::placeholder {
     line-height: 23px;
 }
 
-.main__content button{
+.main__btn{
+    display: flex;
+    justify-content: center;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     border: 2px solid #fff;
@@ -132,12 +134,12 @@ input::placeholder, textarea::placeholder {
     margin-bottom: 200px;
 }
 
-.main__content button:hover {
+.main__btn:hover {
     color: #EC7979;
     border: 2px solid #EC7979;
 }
 
-.main__content button:active {
+.main__btn:active {
     color: #fff;
     border: 2px solid #AB4949;
     background-color: #AB4949;
@@ -166,8 +168,13 @@ input::placeholder, textarea::placeholder {
 }
 
 .main__form form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__form div {
+    width: 370px;
+    margin: 0 auto;
 }
 
 .main__form button {
@@ -175,7 +182,7 @@ input::placeholder, textarea::placeholder {
     font-weight: 500;
     background-color: #EC7979;
     width: 100%;
-    margin-top: 83px;
+    margin-top: 75px;
     padding: 23px 0 22px 0;
     border-radius: 0 0 15px 15px;
 }
@@ -381,7 +388,6 @@ input::placeholder, textarea::placeholder {
 .banner2 {
     color: #fff;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner2.png) no-repeat center center / cover;
-    
 }
 
 .banner2__title,
@@ -400,9 +406,11 @@ input::placeholder, textarea::placeholder {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     border: 2px solid #fff;
-    width: 270px;
-    padding: 15px 0;
-    margin-bottom: 50px;
+    width: 370px;
+    padding: 17px 0;
+    display: inline-flex;
+    justify-content: center;
+    margin: 60px 0 50px 0;
 }
 
 .banner2__btn:hover {
