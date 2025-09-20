@@ -1,0 +1,233 @@
+/* tablet */
+@media (max-width: 1199px) {
+    .head {
+        margin: 0 auto 35px auto;
+    }
+
+    .title {
+        font-size: 24px;
+        padding: 110px 0 45px 0;
+    }
+
+    .line {
+        width: 142px;
+        padding: 0 0 32px 0;
+    }
+
+    .subline {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 992px;
+    }
+
+    .header__logo {
+        margin-left: 60px;
+    }
+
+    .main{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner-tablet.png) no-repeat center bottom / cover;
+    }
+
+    .main .container{
+        width: 885px;
+    }
+
+    .main__line {
+        width: 115px;
+    }
+
+    .main__logo {
+        margin-top: 154px;
+    }
+
+    .main__logo img {
+        height: 41px;
+    }
+
+    .main h1 {
+        font-size: 36px;
+        width: 450px;
+        line-height: 45px;
+        margin: 39px 0 41px 0;
+    }
+
+    .main p {
+        font-size: 14px;
+        width: 183px;
+        line-height: 23px;
+        margin: 21px 0;
+    }
+
+    .main__btn {
+        width: 183px;
+        margin-bottom: 131px;
+    }
+
+    .main__form {
+        width: 398px;
+        margin: 137px -50px 0 0;
+    }
+
+    .main__form h3 {
+        font-size: 18px;
+    }
+
+    .main__form div {
+        width: 298px;
+    }
+
+    
+
+    .banner__container {
+        width: 992px;
+    }
+
+    .banner__text  h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .banner__text  p {
+        font-size: 14px;
+        margin: 25px 0 13px 0;
+        width: 400px;
+        line-height: 17px;
+    }
+
+    .banner__icons {
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+    }
+
+    .banner__icons a img {
+        height: 50px;
+    }
+
+
+
+    .about__item {
+        width: 318px;
+    }   
+
+    .about__item img {
+        height: 147px;
+        padding: 0 0 32px 0;
+    }
+
+    .about__item h3 {
+        font-size: 18px;
+        padding: 0 0 45px 0;
+    }
+
+    .about__item p {
+        font-size: 14px;
+        padding: 0 7px;
+        line-height: 15px;
+    }
+
+    .pricing__head {
+        margin: 0 auto 49px auto;
+    }
+
+    .pricing__item {
+        width: 317px;
+    }
+
+    .pricing__item__price {
+        padding: 25px;
+    }
+
+    .pricing__item__list li,
+    .pricing__item__duration {
+        padding: 12px;
+    }
+
+
+    .reviews {
+        padding-bottom: 57px; 
+    }
+
+    .reviews__item{
+        width: 317px;
+    }
+
+    .reviews__item__comment p {
+        font-size: 14px;
+        width: 248px;
+        line-height: 18px;
+        padding: 50px 35px;
+    }
+
+    .reviews__item__comment img {
+        position: relative;
+        left: -80px;
+        height: 20px;
+    }
+
+    .reviews__item__info h3 {
+        font-size: 18px;
+    }
+
+    .reviews__item__info p {
+        font-size: 14px;
+        padding-top: 25px;
+    }
+
+
+    .banner2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner2-tablet.png) no-repeat center center / cover;
+    }
+
+    .banner2__btn {
+        width: 318px;
+        padding: 20px 0;
+        margin: 0 0 50px 0;
+    }
+
+
+    .contact__head {
+        margin-bottom: 72px;
+    }
+    
+    .contact__form {
+        column-gap: 20px;
+    }
+
+    .contact__form input {
+        width: 486px;
+        margin-bottom: 35px;
+    }
+
+    .contact__form textarea {
+        margin-bottom: 35px;
+
+    }
+    
+    .contact button{
+        width: 318px;
+        margin: 25px 0 50px 0;
+    }
+
+    .footer__icons img {
+        height: 37px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+
+
+/* mobile */
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px; 
+    }
+
+   
+}

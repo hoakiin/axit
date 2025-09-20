@@ -58,9 +58,6 @@ input::placeholder, textarea::placeholder {
     align-items: center; 
 }
 
-.header__logo {
-    margin-left: -55px;
-}
 
 .header__menu {
     display: flex;
@@ -150,7 +147,7 @@ input::placeholder, textarea::placeholder {
     height: 450px;
     background-color: #fff;
     margin: 207px 0 293px 0;
-    border-radius: 15px;
+    border-radius: 13px;
     text-align: center;
     font-family: "Open Sans", sans-serif;
 }
@@ -218,6 +215,7 @@ input::placeholder, textarea::placeholder {
     font-size: 24px;
     font-weight: 700;
     margin-top: 20px;
+    color: #333333;
 }
 
 .banner__text  p {
