@@ -58,6 +58,9 @@ input::placeholder, textarea::placeholder {
     align-items: center; 
 }
 
+.header__burger {
+    display: none;
+}
 
 .header__menu {
     display: flex;
@@ -232,6 +235,7 @@ input::placeholder, textarea::placeholder {
 .about__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about__item {
@@ -277,6 +281,7 @@ input::placeholder, textarea::placeholder {
 .pricing__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .pricing__item {
